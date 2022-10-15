@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 25px 76px;
+
+}
+
+.link-header {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #17233D;
+    display: inline-block;
+    height: 21px;
+    width: 83px;
+
+
+
+
+}
+
+button {
+    background: #6FBF44;
+    border: #6FBF44;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    height: 51px;
+    width: 124px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+
+
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    margin-left: 85px;
+    width: 493px;
+}
+
+
+
+.imagem-1 {
+    width: 500px;
+    display: inline-block;
+    margin: 50px 0 0 123px;
+
+
+}
+
+a {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+    .link-header {
+        display: none;
+    }
+
+    .imagem-1 {
+        width: 450px;
+        height: 430px;
+        position: fixed;
+        top: 52%;
+        margin: 49px 9px 16px 61px;
+    }
+
+    h1 {
+
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        height: 60px;
+        width: 278px;
+        margin: 66px 9px 29px 57px;
+
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        width: 304px;
+    }
+
+    .linkin {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        margin-left: 205px;
+        margin-top: 26px;
+
+    }
+
+    button {
+
+    }
+}
